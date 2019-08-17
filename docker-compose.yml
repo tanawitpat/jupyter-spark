@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  jupyter-spark:
+    build: .
+    container_name: jupyter-spark
+    volumes:
+      - ./work:/home/jovyan/work
+    ports:
+      - 10000:8888
+    restart: always

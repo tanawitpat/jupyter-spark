@@ -11,3 +11,7 @@
 ## Install Libraries
 1. Add library names to pyspark-requirement.txt or sparkr-requirements.txt
 2. Run ```make start```
+
+## Reference
+- https://hub.docker.com/r/jupyter/pyspark-notebook
+- https://hub.docker.com/r/jupyter/all-spark-notebook
